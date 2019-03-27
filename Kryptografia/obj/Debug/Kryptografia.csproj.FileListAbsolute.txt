@@ -1,0 +1,14 @@
+c:\users\cebula\documents\visual studio 2015\Projects\Kryptografia\Kryptografia\bin\Debug\Kryptografia.exe.config
+c:\users\cebula\documents\visual studio 2015\Projects\Kryptografia\Kryptografia\obj\Debug\Kryptografia.csprojResolveAssemblyReference.cache
+c:\users\cebula\documents\visual studio 2015\Projects\Kryptografia\Kryptografia\obj\Debug\MainWindow.g.cs
+c:\users\cebula\documents\visual studio 2015\Projects\Kryptografia\Kryptografia\obj\Debug\App.g.cs
+c:\users\cebula\documents\visual studio 2015\Projects\Kryptografia\Kryptografia\obj\Debug\Kryptografia_MarkupCompile.cache
+c:\users\cebula\documents\visual studio 2015\Projects\Kryptografia\Kryptografia\obj\Debug\Kryptografia_MarkupCompile.lref
+c:\users\cebula\documents\visual studio 2015\Projects\Kryptografia\Kryptografia\bin\Debug\Kryptografia.exe
+c:\users\cebula\documents\visual studio 2015\Projects\Kryptografia\Kryptografia\bin\Debug\Kryptografia.pdb
+c:\users\cebula\documents\visual studio 2015\Projects\Kryptografia\Kryptografia\obj\Debug\MainWindow.baml
+c:\users\cebula\documents\visual studio 2015\Projects\Kryptografia\Kryptografia\obj\Debug\Kryptografia.g.resources
+c:\users\cebula\documents\visual studio 2015\Projects\Kryptografia\Kryptografia\obj\Debug\Kryptografia.Properties.Resources.resources
+c:\users\cebula\documents\visual studio 2015\Projects\Kryptografia\Kryptografia\obj\Debug\Kryptografia.csproj.GenerateResource.Cache
+c:\users\cebula\documents\visual studio 2015\Projects\Kryptografia\Kryptografia\obj\Debug\Kryptografia.exe
+c:\users\cebula\documents\visual studio 2015\Projects\Kryptografia\Kryptografia\obj\Debug\Kryptografia.pdb

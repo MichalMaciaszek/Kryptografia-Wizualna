@@ -1,0 +1,66 @@
+﻿<Window x:Class="Kryptografia.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Kryptografia"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="470" Width="530">
+    <TabControl >
+        <TabItem Header="Program" Background="Turquoise" HorizontalAlignment="Left" Width="69">
+            <Grid Margin="0,0,0.4,-89.2">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="45*"/>
+                    <ColumnDefinition Width="83*"/>
+                    <ColumnDefinition Width="128*"/>
+                </Grid.ColumnDefinitions>
+                <StackPanel Grid.Column="0" Margin="20,20,20,20.4" Grid.ColumnSpan="2">
+                    <TextBlock Margin="0 0 0 5" Text="Załaduj zdjęcie " HorizontalAlignment="Center"/>
+                    <Button x:Name="ImageButton" Width="160" Height="160" Click="ImageButton_Click">
+                        <StackPanel>
+                            <Image x:Name="ImageInButton"/>
+                        </StackPanel>
+                    </Button>
+                    <Button x:Name="Przetorz" Width="120" Height="20" Content="Wykonaj algorytm" Foreground="White" FontWeight="Bold" Background="#FF7747DE" Margin="0 5 0 5" Click="Przetorz_Click"/>
+                    <Button x:Name="Przywroc" Width="120" Height="20" Content="Przywroc obraz" Foreground="White" FontWeight="Bold" Background="#FF7747DE" Margin="0 5 0 5" Click="Przywroc_Click"/>
+
+                </StackPanel>
+                <StackPanel Grid.Column="2" Margin="20,20,20,20.4">
+                    <Button x:Name="ImageButton2" Width="160" Height="160" Click="ImageButton2_Click">
+                        <StackPanel>
+                            <Image x:Name="ImageInButton2"/>
+                        </StackPanel>
+                    </Button>
+                    <Button x:Name="Zapisz" Width="100" Height="20" Content="Zapisz" Foreground="White" FontWeight="Bold" Background="#FF7747DE" Margin="0 5 0 5" Click="Zapisz_Click"/>
+                    <Button x:Name="ImageButton3" Width="160" Height="160" Click="ImageButton3_Click">
+                        <StackPanel>
+                            <Image x:Name="ImageInButton3"/>
+                        </StackPanel>
+                    </Button>
+                    <Button x:Name="Zapisz2" Width="100" Height="20" Content="Zapisz" Foreground="White" FontWeight="Bold" Background="#FF7747DE" Margin="0 5 0 5" Click="Zapisz2_Click"/>
+
+                </StackPanel>
+
+
+            </Grid>
+        </TabItem>
+        <TabItem Header="Help" Background="Turquoise" HorizontalAlignment="Left" Width="69">
+            <Grid>
+                <Label Name="label" Content="Program akceptuje formaty png, jpg i bitmapy" Margin="0,0,86.8,0"/>
+                <Label Name="label2" Content="Działanie możliwe zarówno dla kolorów obrazych (konwersja na czerń i biel) jak i czarno białych" Margin="0,21,-0.2,-20.8"/>
+                <Label Name="label3" Content="Przyciski 'Wykonaj algorytm' i 'Przywróc obraz' rozpoczynają przetwarzanie obrazu." Margin="0,42,9.8,-41.8"/>
+                <Label Name="label5" Content="Kliknij szary kwadrat, aby załadować obraz" Margin="0,62,86.8,-61.8"/>
+
+                <Label Name="label6" Content="Działanie algorytmu wg wzoru:" Margin="0,112,86.8,-111.8"/>
+                <Image Source="C:/Users/Cebula/Desktop/obraz.png" Margin="-29,-10,248.8,10.2"  />
+               
+                    <TextBlock x:Name="textBlock" Height="129" TextWrapping="Wrap" Text="Program sprawdza każdy piksel obrazu. Jeżeli piksel jest czarny, to do jednego nowego obrazu dodaje losowo:
+                               a) czarny i biały a do drugiego biały i czarny
+                               b) biały i czarny a do drugiego czarny i biały 
+                               Jeżeli piksel jest biały to do obu dodajemy losowo czarny i biały lub biały i czarny" Width="308" Margin="10,222,194.8,40.2"/>
+                
+            </Grid>
+        </TabItem>
+
+    </TabControl>
+</Window>
